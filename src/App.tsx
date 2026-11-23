@@ -328,8 +328,9 @@ export default function App() {
               <p className="mt-5 text-lg leading-relaxed text-slate-600">{t.contact.description}</p>
 
               <div className="mt-10 space-y-5">
-                <ContactRow icon={Mail} label={t.contact.emailLabel} value="contact@puentemx.com" />
-                <ContactRow icon={Phone} label={t.contact.phoneLabel} value="+52 55 0000 0000" />
+                <ContactRow icon={Mail} label={t.contact.emailLabel} value="contact@cdmx8puente.com" />
+                <ContactRow icon={Phone} label={t.contact.whatsappLabel} value="+52 5631719451" />
+                <ContactRow icon={WeChat} label={t.contact.wechatLabel} value="+52 9617647144" />
                 <ContactRow icon={MapPin} label={t.contact.basedInLabel} value="Mexico City, Mexico" />
                 <ContactRow icon={Linkedin} label={t.contact.linkedinLabel} value="PuenteMX Consulting" />
               </div>
